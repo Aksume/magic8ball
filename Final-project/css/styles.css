@@ -1,0 +1,162 @@
+body {
+	/* background-image: url("../image/images6.jpg");  */
+	
+        /* animation */
+	 background: linear-gradient(45deg,#f1ee58, #24aadb,#27DBB1,#ffdc18,#6b6a7c);
+ 	background-size: 600% 200%;
+ 	animation:gradient 6s linear infinite  ; 
+ }
+ @keyframes gradient{
+ 0%{background-position:0% } /* 0% is the beginning of the animation   */
+
+ 100%{background-position:100% }   /* 100% is when the animation is complete.  */
+ 		
+} 
+ 
+
+
+h1 {
+	/* font-weight: 100; */
+	font-size: 2.5em;
+	color: white;
+	padding: 25px;
+	/* box-shadow: 0 3px 10px  rgba(121, 110, 88, 0.75); */
+	
+}
+
+#content {
+	width: 600px;
+	height: 800px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border: 4px gray;
+	border-radius: 10px;
+	text-align: center;
+	font-style: italic;
+	font-weight: 100;
+	background-color: rgb(27, 68, 104);
+	box-shadow: 0 3px 10px rgba(212, 148, 7, 0.75);
+	
+}
+#eight-ball {
+	font-size: 25px;
+	/* font-weight: 100; */
+	/* background-color:lightblue ; */
+	background-color: rgb(27, 68, 104);
+	
+	box-shadow: 0 3px 10px rgba(212, 148, 7, 0.75);
+	border-radius: 7px;
+	color: white;
+	font-style: italic;
+}
+
+div.eight-ball {	
+	background: lightblue;
+	
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	/* margin-bottom: 30px; */
+	margin-top: 40px;
+	
+}
+
+ div.answer {
+	/* background-color: #333;  */
+	 background-color: rgb(27, 68, 104);
+	 background: linear-gradient(45deg,#000,#000,#000,#000,#000,#000);
+ 	 /* background: linear-gradient(45deg,#2b491d, #24aadb,#27DBB1,#2b491d,#6b6a7c); */
+	
+	border: 1px solid #333;	
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	
+	margin: 25% auto;
+} 
+/* div.answer {
+	
+		background:#000;
+  animation: pulsate 2s ease-in-out infinite;
+  	border: 1px solid #333;	
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	/* border-radius: 90px; */
+	/* margin: 25% auto; */
+/* } */ 
+
+@keyframes pulsate { /* You can add more % with more colors! */
+  0% {background-color: black;}
+  50% {background-color: white;}
+  100% {background-color: black;}
+}  
+
+
+/* Specify when the style change will happen in percent, or with the keywords "from" and "to", which is the same as 0% and 100%. 0% is the beginning of the animation, 100% is when the animation is complete. */
+
+
+p#eight {
+	font-size: 5em;
+	margin: 20% auto;
+	color: white;
+
+}
+
+
+
+p#answer {
+	padding: 23px;
+	/* color: rgb(209, 199, 199); */
+	color: black;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+.circle {
+	border-radius: 100%;
+}
+
+#question {
+	margin: 20px;
+	padding: 10px;
+	width: 400px;
+	font-size: 22px;	
+	background-color: rgb(27, 68, 104);
+	border-radius: 4px;
+	box-shadow: 0 3px 10px rgba(212, 148, 7, 0.75);
+	 	 /* background: linear-gradient(45deg,#f1ee58, #24aadb,#27DBB1,
+	 #ffdc18,#6b6a7c); */
+ 	
+}
+
+#info {
+	font-size: 25px;
+	color: white;
+	box-shadow: 0 3px 10px rgba(212, 148, 7, 0.75);
+
+}
+h5 {
+	font-size: 30px; 
+	 color: white;
+	
+	 
+}
+
+@keyframes spin1 {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/* @keyframes spin2 {
+	100% {
+		transform: rotate(-360deg);
+	} */
+/* } */
+@keyframes idle {
+	100% {
+	}
+}
+

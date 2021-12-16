@@ -66,8 +66,8 @@ div.eight-ball {
  div.answer {
 	/* background-color: #333;  */
 	 background-color: rgb(27, 68, 104);
-	 background: linear-gradient(45deg,#000,#000,#000,#000,#000,#000);
- 	 /* background: linear-gradient(45deg,#2b491d, #24aadb,#27DBB1,#2b491d,#6b6a7c); */
+	 /* background: linear-gradient(45deg,#000,#000,#000,#000,#000,#000); */
+ 	 background: linear-gradient(45deg,#2b491d, #24aadb,#27DBB1,#2b491d,#6b6a7c);
 	
 	border: 1px solid #333;	
 	border-radius: 50%;
@@ -76,26 +76,7 @@ div.eight-ball {
 	
 	margin: 25% auto;
 } 
-/* div.answer {
-	
-		background:#000;
-  animation: pulsate 2s ease-in-out infinite;
-  	border: 1px solid #333;	
-	border-radius: 50%;
-	width: 50%;
-	height: 50%;
-	/* border-radius: 90px; */
-	/* margin: 25% auto; */
-/* } */ 
 
-@keyframes pulsate { /* You can add more % with more colors! */
-  0% {background-color: black;}
-  50% {background-color: white;}
-  100% {background-color: black;}
-}  
-
-
-/* Specify when the style change will happen in percent, or with the keywords "from" and "to", which is the same as 0% and 100%. 0% is the beginning of the animation, 100% is when the animation is complete. */
 
 
 p#eight {
@@ -104,8 +85,6 @@ p#eight {
 	color: white;
 
 }
-
-
 
 p#answer {
 	padding: 23px;
@@ -150,11 +129,7 @@ h5 {
 		transform: rotate(360deg);
 	}
 }
-/* @keyframes spin2 {
-	100% {
-		transform: rotate(-360deg);
-	} */
-/* } */
+
 @keyframes idle {
 	100% {
 	}
